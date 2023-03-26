@@ -1,0 +1,19 @@
+.statisctics__container {
+    display: flex;
+    justify-content: center;
+    width: 350px;
+
+    
+}
+
+.statisctics__list {
+    
+ 
+
+
+}
+.statisctics__item {
+list-style: none;
+
+
+}

@@ -1,0 +1,39 @@
+.feedback__container{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+.feedback__list {
+    display: flex;
+    padding: 0;
+}
+.feedback__item {
+   
+
+    margin: 5px;
+
+    display: flex;
+   
+
+   
+
+}
+
+
+.btn {
+    height: 50px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+    font-size: 21px;
+
+    background-color: rgb(140, 252, 214);
+}
+.btn:hover {
+    box-shadow: 1px 1px 5px 5px grey;
+    background-color: rgb(78, 216, 170);
+}
