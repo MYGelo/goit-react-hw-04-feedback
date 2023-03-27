@@ -10,14 +10,23 @@ export const App = () => {
   const [neutral, setNeutral] = useState(0);
 
   const handleFeedback = e => {
-    if (e.target.name === 'good') {
-      setGood(prevGood => prevGood + 1);
-    }
-    if (e.target.name === 'bad') {
-      setBad(prevBad => prevBad + 1);
-    }
-    if (e.target.name === 'neutral') {
-      setNeutral(prevNeutral => prevNeutral + 1);
+    const statistics = e.target.name;
+
+    switch (statistics) {
+      case 'good':
+        setGood(prevGood => prevGood + 1);
+        break;
+
+      case 'bad':
+        setBad(prevBad => prevBad + 1);
+        break;
+
+      case 'neutral':
+        setNeutral(prevNeutral => prevNeutral + 1);
+        break;
+
+      default:
+        break;
     }
   };
 
